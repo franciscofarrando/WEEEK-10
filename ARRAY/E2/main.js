@@ -1,3 +1,12 @@
+function mostrarPX(){
+    
+    for (let i = 0; i < listadoPasajeros.length; i++) {
+        listadoPX.innerHTML += listadoPasajeros[i] + "</br>";
+}
+}
+const listadoPX = document.querySelector(".ordenatas");
+
+
 const listadoPasajeros =[
     "Jack Dawson",
     "Leondar Peaky Blinder",
@@ -43,15 +52,17 @@ for (let i=0; i<listadoPasajeros.length; i++){
 console.log (listadoPasajeros.length) ;
 //Imprimir en pantalla
 
-function finalList() {
-    let pasajero = "<ul>"; 
+// function finalList() {
+//     let pasajero = "<ul>"; 
 
-    for (let i = 0; i < listadoPasajeros.length; i++) {
-        pasajero += "<li>" + listadoPasajeros[i] + "</li>"; 
-    }
+//     for (let i = 0; i < listadoPasajeros.length; i++) {
+//         pasajero += "<li>" + listadoPasajeros[i] + "</li>"; 
+//     }
 
-    pasajero += "</ul>"; 
-    document.getElementById("finalList").innerHTML = pasajero; 
-}
+//     pasajero += "</ul>"; 
+//     document.getElementById("finalList").innerHTML = pasajero; 
+// }
 
-finalList();
+// finalList();
+
+// Mostrar con boton
