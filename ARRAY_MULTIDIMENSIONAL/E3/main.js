@@ -1,0 +1,1 @@
+const alumnos = ["Laia", "Carla", "Albert", "Juan Carlos", "Francisco", "Sergio", "Rifi", "Walid", "Herman", "Ferdi", "David"];
