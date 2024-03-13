@@ -1,8 +1,8 @@
 let num1 = parseInt(prompt("Escriba un numero del 1 al 10"));
 let num2 = parseInt(prompt("Escriba un numero del 1 al 10. ATENCION! no puede ser mayor al numero antes escrito"));
 
- if(num1 == "10" || num2 < num1){
-     alert("Error. ")
+ if(num2 < num1){
+     alert("Error. ATENCION! el primer numero no puede ser mayor al segundo numero")
 
 }else{
     
